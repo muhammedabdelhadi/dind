@@ -50,5 +50,10 @@
     "onCreateCommand": "sudo bash .devcontainer/onCreateCommand.sh",
     "postStartCommand": "sudo bash .devcontainer/postStartCommand.sh",
     "postAttachCommand": "sudo bash .devcontainer/postAttachCommand.sh",
-    "waitFor": "postStartCommand"
+    "waitFor": "postStartCommand",
+    "features": {
+  "ghcr.io/tailscale/codespace/tailscale": {
+    "version": "latest"
+  }
+
 }
